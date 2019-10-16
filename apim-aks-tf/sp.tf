@@ -5,7 +5,7 @@ resource "random_string" "sp-password" {
 }
 
 resource "azuread_application" "aksapim" {
-  name                       = "nf-aksapim-sp"
+  name                       = "rsaz-aksapim-sp"
   homepage                   = "https://homepage"
   reply_urls                 = ["https://replyurl"]
   available_to_other_tenants = false
