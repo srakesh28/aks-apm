@@ -4,7 +4,7 @@ resource "azurerm_kubernetes_cluster" "test" {
   name                = "aks-for-apim"
   location            = "${azurerm_resource_group.apim-aks.location}"
   resource_group_name = "${azurerm_resource_group.apim-aks.name}"
-  dns_prefix          = "nfaksapim"
+  dns_prefix          = "rsazaksapim"
 
   agent_pool_profile {
     name            = "pool1"
