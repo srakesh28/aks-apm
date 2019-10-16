@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "apim-aks" {
-  name     = "blog-apim-and-aks"
+  name     = "rsaz-apim-and-aks"
   location = "WestUS2"
 }
 
